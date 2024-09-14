@@ -1,0 +1,5 @@
+curl -c cookies.txt -u admin:admin "http://192.168.0.178/cgi-bin/MUH44TP_getsetparams.cgi"
+  
+then
+
+curl -b cookies.txt -u admin:admin -d "CMD=PresetRecall01" "http://192.168.0.178/cgi-bin/MMX32_Keyvalue.cgi"
